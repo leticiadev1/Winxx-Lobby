@@ -29,11 +29,11 @@ public class GamemodeCommand extends GamemodeManager implements CommandExecutor 
                             .setWoolColor(DyeColor.PURPLE).build());
                     gamemodeInventory.setItem(13, new ItemBuilder(Material.WOOL)
                             .setName("§aGAMEMODE SURVIVAL")
-                            .setLore("", "§7Clique com botão direito", "§7para entrar no modo criativo.")
+                            .setLore("", "§7Clique com botão direito", "§7para entrar no modo survival.")
                             .setWoolColor(DyeColor.BLUE).build());
                     gamemodeInventory.setItem(15, new ItemBuilder(Material.WOOL)
                             .setName("§aGAMEMODE ESPECTADOR")
-                            .setLore("", "§7Clique com botão direito", "§7para entrar no modo criativo.")
+                            .setLore("", "§7Clique com botão direito", "§7para entrar no modo espectador.")
                             .setWoolColor(DyeColor.SILVER).build());
 
 

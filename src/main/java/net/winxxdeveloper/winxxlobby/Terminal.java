@@ -5,6 +5,7 @@ import net.winxxdeveloper.winxxlobby.animations.runnables.AnimationRunnable;
 import net.winxxdeveloper.winxxlobby.manager.BuildingManager;
 import net.winxxdeveloper.winxxlobby.manager.PluginManager;
 import net.winxxdeveloper.winxxlobby.manager.PvpManager;
+import net.winxxdeveloper.winxxlobby.runnables.AlwaysDayRunnable;
 import net.winxxdeveloper.winxxlobby.utils.Config;
 import org.bukkit.Bukkit;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
@@ -52,6 +53,7 @@ public final class Terminal extends JavaPlugin {
         }
 
         new AnimationRunnable(this).runTaskTimerAsynchronously(this, 0L, 1L);
+        new AlwaysDayRunnable(this).runTaskTimerAsynchronously(this, 0L, 100L);
 
     }
 

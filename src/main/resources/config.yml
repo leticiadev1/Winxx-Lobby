@@ -10,6 +10,8 @@ permissions:
   admin: 'winxxlobby.admin'
   fly-use: 'winxxlobby.fly.use'
 
+world-name: 'mundo' # Coloque o nome do mundo do lobby.
+
 fly-system:
   activated: '&6&lWINXX LOBBY  ➥ &aAs suas asas foram liberadas, aproveite.'
   deactivated: '&6&lWINXX LOBBY  ➥ &cAs suas asas foram recolhidas.'

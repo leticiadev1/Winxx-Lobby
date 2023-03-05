@@ -16,3 +16,5 @@ commands:
     aliases: [gm0, gmsurvival]
   fly:
     aliases: [voar, asas]
+  clearchat:
+    aliases: [limparchat, chatclear]

@@ -18,6 +18,7 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.*;
+import org.bukkit.event.weather.WeatherChangeEvent;
 
 import java.awt.*;
 import java.io.IOException;
@@ -206,6 +207,11 @@ public class LobbyListener extends LobbyManager implements Listener {
             event.setCancelled(false);
             return;
         }
+        event.setCancelled(true);
+    }
+
+    @EventHandler
+    public void onWeatherEvent(WeatherChangeEvent event){
         event.setCancelled(true);
     }
 

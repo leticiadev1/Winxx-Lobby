@@ -15,6 +15,7 @@ public class PluginManager {
         Terminal.getInstance().getCommand("gmc").setExecutor(new GamemodeCommand());
         Terminal.getInstance().getCommand("gms").setExecutor(new GamemodeCommand());
         Terminal.getInstance().getCommand("fly").setExecutor(new FlyCommand());
+        Terminal.getInstance().getCommand("clearchat").setExecutor(new ClearchatCommand());
     }
 
     public static void listenersManager(){

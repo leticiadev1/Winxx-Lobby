@@ -1,0 +1,38 @@
+# Server menu configuration section
+# Remembering.. by WinxxJAVA#7250
+
+server-selector:
+  gui-menu:
+    title: '&7Menu de Servidores'
+    connect-message: '&aConectando-se ao {server_name} &aaguarde um instante..'
+    servers:
+      rankup:
+        name: '&5R. Magic'
+        lore:
+          - ''
+          - ' &e➦ Temporada: #1'
+          - ''
+          - '&7➥ Sistema de Pesca'
+          - '&7➥ Sistema de Maquinas'
+          - '&7➥ Sistema de Spawners'
+          - '&7➥ Sistema de Lucky Blocks'
+          - '&7➥ Ganhe VIP jogando!'
+          - ''
+          - ' &5magicplugins.com'
+        server: 'rankup' # Servidor que irá enviar o player
+        slot: 12
+        texture-head: 'http://textures.minecraft.net/texture/b644b07a5a724d6c39a70e3ccdb2db107682a12e9005bc20b9415e40508bb512'
+      factions:
+        name: '&5F. Magia'
+        lore:
+          - ''
+          - ' &e➦ Temporada: #1'
+          - ''
+          - '&7➥ Sistema de Encantamentos'
+          - '&7➥ Sistema de Gerador de Camadas'
+          - '&7➥ Sistema de Attack Warn'
+          - ''
+          - ' &5magicplugins.com'
+        server: 'factions' # Servidor que irá enviar o player
+        slot: 14
+        texture-head: 'http://textures.minecraft.net/texture/e34930125767c2e34ac939ec94a2aa4e79c381ee336760695c6c874cf12'

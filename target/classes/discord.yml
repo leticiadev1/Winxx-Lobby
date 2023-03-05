@@ -1,0 +1,34 @@
+###########################################
+#                                         #
+#              Lobby Plugin               #
+#          Discord Integration            #
+#			                              #
+###########################################
+
+discord-integration:
+  webhook: '' # Link do seu web hook.
+
+embeds:
+  alerta-embed:
+    title: '**ALERTA - LOGS**'
+    description: 'O staffer *{staffer}* enviou um alerta! **{alerta}** **{date}**'
+    footer: 'winxxdeveloper.com'
+    image: 'https://cdn.discordapp.com/attachments/1080278430794391603/1080610665003229234/b2aefe12b3894983b62d9d0bef1cd95a.jpg'
+
+  recepcao-embed:
+    title: '**RECEPÇÃO - LOGS**'
+    description: 'O jogador *{jogador}* {recepcao} no servidor! **{date}**' # {recepcao} define se o jogador entrou ou deslogou.
+    footer: 'winxxdeveloper.com'
+    image: 'https://cdn.discordapp.com/attachments/1080278430794391603/1080610665003229234/b2aefe12b3894983b62d9d0bef1cd95a.jpg'
+
+  building-embed:
+    title: '**BUILDING - LOGS**'
+    description: 'O jogador *{staffer}* {building} o modo construtor! **{date}**' # {building} define se o jogador ativou ou desativou o modo build.
+    footer: 'winxxdeveloper.com'
+    image: 'https://cdn.discordapp.com/attachments/1080278430794391603/1080610665003229234/b2aefe12b3894983b62d9d0bef1cd95a.jpg'
+
+  gamemode-embed:
+    title: '**GAMEMODE - LOGS**'
+    description: 'O staffer *{staffer}* entrou no gamemode **{gamemode}**! **{date}**' # {gamemode} define se o gamemode que o jogador entrou.
+    footer: 'winxxdeveloper.com'
+    image: 'https://cdn.discordapp.com/attachments/1080278430794391603/1080610665003229234/b2aefe12b3894983b62d9d0bef1cd95a.jpg'

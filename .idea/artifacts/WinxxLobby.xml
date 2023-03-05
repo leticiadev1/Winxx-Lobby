@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WinxxLobby">
+    <output-path>$USER_HOME$/Documents/Servidores/Teste/plugins</output-path>
+    <root id="archive" name="WinxxLobby.jar">
+      <element id="module-output" name="Winxx Lobby" />
+    </root>
+  </artifact>
+</component>

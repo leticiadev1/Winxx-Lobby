@@ -1,0 +1,44 @@
+##########################################
+#                                        #
+#           WinxxLobby Plugin            #
+#             Developed by               #
+#            WinxxJAVA#7250              #
+#                                        #
+##########################################
+
+permissions:
+  admin: 'winxxlobby.admin'
+  fly-use: 'winxxlobby.fly.use'
+
+fly-system:
+  activated: '&6&lWINXX LOBBY  ➥ &aAs suas asas foram liberadas, aproveite.'
+  deactivated: '&6&lWINXX LOBBY  ➥ &cAs suas asas foram recolhidas.'
+
+lobby-system:
+  one-hearth: true # Deixe true caso queira que os player tenha só 1 coração
+
+build-system:
+  syntax:
+    - ''
+    - '   &6&lWINXX LOBBY  ➥ MENU DE AJUDA'
+    - ''
+    - ' &aUtilize o comando nesta seguinte syntax.'
+    - ''
+    - '&7/build <on> para ativar o modo construtor e poder construir no lobby'
+    - '&7/build <off> para desativar o modo construtor e não poder construir no lobby'
+    - ''
+  modes:
+    ativado: '&6&lWINXX LOBBY  ➥  BUILDING SYSTEM ACTIVATED'
+    desativado: '&6&lWINXX LOBBY  ➥  BUILDING SYSTEM DEACTIVATED'
+
+pvp-system:
+  death-message: '&e[PVP] &cO jogador &7{player} &c7foi morto por &7{killer}&c.'
+
+teleports:
+  tp-spawn: '&6&lWINXX LOBBY  §7➥  §aVocê teleportou para o spawn com sucesso.'
+  tp-pvp: '&6&lWINXX LOBBY  §7➥  §aVocê teleportou para a arena pvp com sucesso.'
+
+
+locations:
+  spawn: null
+  pvp-entrada: null
